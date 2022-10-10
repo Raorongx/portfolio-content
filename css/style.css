@@ -29,7 +29,7 @@ figure{
   width: 480px;
   padding: 20px;
   border: 10px solid rgb(208, 28, 28);
-  margin: 5px;
+  margin: 0 auto;
   position:relative;
 }
 
