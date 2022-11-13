@@ -22,7 +22,7 @@ body{
   display: grid; 
   grid-template-rows: auto;
   grid-template-columns: auto;
-  align-items: space-between;
+  align-items: normal;
 }
 
 .navigation{
@@ -79,7 +79,8 @@ figure{
 .caption{
   font-size: 12px;
   animation: fadeIn 5s;
-  font-style: rgb(59, 55, 55) italic;
+  font-style: italic;
+  color: rgb(59, 55, 55);
 }
 
 #flexcontainer{
