@@ -1,9 +1,13 @@
+html{
+  scroll-behavior: smooth;
+}
+
 nav li{
   display: inline;
 }
 
 li a {
-  display: block;
+  display: inline;
   color: #000;
   padding: 8px 16px;
   text-decoration: none;
@@ -26,21 +30,29 @@ body{
 }
 
 .navigation{
-  display: grid;
+  display: inline;
+  padding: 20px 0;
+  text-align: center;
   grid-row: 1 / span 1;
 }
 
-#main{
+.main{
   display: grid;
   grid-row: 2 / span 1;
+  padding: 20px 0;
+  text-align: center;
 }
 
 .side{
   display: grid;
   grid-row: 3 / span 1;
   margin-top: 1em;
+  margin-bottom: 1em;
   font-size: 20px;
   font-style: oblique;
+  padding: 20px 0;
+  text-align: center;
+  color: burlywood;
 }
 
 
@@ -57,13 +69,16 @@ p + p {
 }
 
 figure{
-  display: grid;
+  display: flex;
   grid-row: 4 / span 1;
-  width: 480px;
-  margin: 5px;
-  position:relative;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
   animation: fadeIn 3s;
+  padding: 20px 0;
 }
+
 
 @keyframes fadeIn{
   0% { opacity: 0; }
@@ -85,7 +100,6 @@ figure{
 
 #flexcontainer{
   display:flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
