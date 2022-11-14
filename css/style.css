@@ -95,7 +95,7 @@ figure{
   font-size: 12px;
   animation: fadeIn 5s;
   font-style: italic;
-  color: rgb(59, 55, 55);
+  color: rgba(0, 7, 103, 0.417);
 }
 
 #flexcontainer{
