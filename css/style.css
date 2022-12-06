@@ -290,8 +290,8 @@ main{
 }
 
 .skip-link {
-  background: #319795;
-  color: #fff;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
   font-weight: 700;
   left: 9999px;
   z-index: 999;
