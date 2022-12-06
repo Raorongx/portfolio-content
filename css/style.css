@@ -455,7 +455,7 @@ main{
   
   footer{
     display: grid;
-    grid-row: 8 / span 1;
+    grid-row: 7 / span 1;
   }
   
 }
