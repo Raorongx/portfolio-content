@@ -3,8 +3,8 @@ html{
 }
 
 .skip-link {
-  background: #ffffff;
-  color: rgb(0, 0, 0);
+  background: #319795;
+  color: #fff;
   font-weight: 700;
   left: 9999px;
   z-index: 999;
@@ -58,6 +58,11 @@ header{
   padding: 20px 0;
   text-align: center;
   grid-template-columns: 1fr;
+}
+
+.active{
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 
@@ -252,6 +257,10 @@ footer{
       color: rgb(255, 255, 255);
     }
 
+    .active{
+      text-decoration: underline;
+    }
+
     .figuregroup{
       display: flex;
       flex-wrap: wrap;
@@ -283,6 +292,12 @@ footer{
 
   .navigation a{
     display:inline-block;
+}
+
+.active{
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 20px;
 }
 
 main{
